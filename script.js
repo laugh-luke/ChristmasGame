@@ -1,6 +1,7 @@
-// Create the canvas
-var canvas = document.createElement("canvas");
-var ctx = canvas.getContext("2d");
-canvas.width = 600;
-canvas.height = 600;
-document.body.appendChild(canvas);
+var canvas = document.getElementById("myCanvas");
+var canvasH= 500;
+var canvasW= 500;
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.fillStyle = "#FF0000";
+ctx.fillRect(0, 0, canvasH, canvasW);
